@@ -32,7 +32,7 @@ sheet = wrkbk.active
 row = sheet.max_row
 column = sheet.max_column
 
-# in my case, range(2, 2) is the indicated row and column to start at #
+# in my case, range(2, 2) is the indicated row to start and stop at #
 for i in range(2, 2): 
     # open the page again to find the elements because it will result in 'not found' or 'time out' errors otherwise #
     driver.get(url)
